@@ -1,3 +1,28 @@
+/*navigation*/
+
+.navbar-brand{
+	
+	height:100px;
+	
+}
+
+
+
+
+
+
+ul{
+	list-style-type: none;
+	
+}
+
+
+
+
+
+/*navigation*/
+
+
 .vheader-style{
    height: 90px; 
 }
@@ -15,15 +40,18 @@
     
 }
 
+.c-vbox{
+	margin-top: 50px;
+}
+
 .vbox{
+	margin-top: 20px;
     margin-left: 26px;
     display:inline-block;
     width: 120px;
     height:97px;
     background-color: rgba(255,255,255,0.8);
-    position: relative;
-    left:304px;
-    top:192px;
+    
     
 }
 
@@ -31,20 +59,7 @@
     padding-top: 250px;
 }
 
-.vnavigation{
-    padding-top: 20px;
-    margin-right: 40px;
-    font-size:13px;
-    text-transform: uppercase;
-    display: block;
-}
 
-.navbar-brand img{
-    position: relative;
-    left:50px;
-    bottom: 9px;
-    
-}
 
 .vprice-banner{
     min-height: 470px;
@@ -84,17 +99,17 @@ ul,li{
 	
 }
 
-ul{
+.box ul{
 	list-style-type: none;
 	text-align: center;
 	color: #dfdfdf;
 }
-ul li{
+.box ul li{
 	border-bottom: 1px solid #202020;
 	padding: 5px 0;
 }
 
-li:first-child {
+.box ul li:first-child {
 	    border-top: 1px solid #202020;
 }
 
@@ -274,26 +289,57 @@ li:first-child {
 /*speakers*/
 
 .speakers {
-	    background: #f5f5f5;
-	padding: 80px;
+	 
 }
 
-.sp-photo img{
-	
-
-	width: 277px;
-	height: 345px;
+.sp-photo img {
+    border: 1px solid lightgrey;
 }
 
 .sp-name h4 {
-	font-size: 14px;
-	margin-bottom: 0;
-	background-color: #efefef;
-	bottom: 0;
-    right: 0;
-    padding: 10px 0;
-    position: absolute;
+       background-color: #f5f5f5;
     text-align: center;
-    width: 100%;
-	width: 277px;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Nav*/
+
+
+@media (min-width: 768px){
+.navbar-nav {
+    float: right;
+    margin-top: 23px;
+    margin-right: 93px;
+}
+
+
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+

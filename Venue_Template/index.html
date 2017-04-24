@@ -11,6 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/f8498f81f7.js"></script>
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/form-style.css">
     
 
     
@@ -18,42 +19,71 @@
 <body>
 
 <!--Header Navigation-->
-     <div class="container">
-           <div class="row">
-               <nav role="navigation" class="navbar navbar-default navbar-fixed-top vheader-style">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="#" class="navbar-brand"><img src="imgs/logo.png"/></a>
-                    </div>
-                    <div id="navbarCollapse" class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right vnavigation">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Speakers</a></li>
-                            <li><a href="#">Schedule</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Pages</a></li>
-                            <li><a href="#">Registration</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            </div>
-        </div>
+  
+    <nav class="navbar navbar-default navbar-fixed-top">
+    	<div class="navbar-header">
+    		<a href="index.html" > 
+    			<img class="navbar-brand" src="imgs/logo.png" alt="Logo">
+    		</a>
+    		<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown" >
+    			
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    			<span class="icon-bar"></span>
+    			
+    		</button>
+    	</div> 
+    	
+    	<div class="collapse navbar-collapse" id="mydropdown"> 
+    	   
+			 <ul class="nav navbar-nav all">
+
+				<li class="active"><a href="index.html">Home</a></li>
+				<li> <a href="#">Speakers</a></li>
+				<li><a href="#">Schedule</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Gallary</a></li>
+				<li><a href="#">Pages</a></li>
+				<li><a href="#">Registration</a></li>
+			</ul>
+		</div>
+		
+	</nav>
+ 				
+     		
+
+     	
+     			
+     					
+ <!--Header Navigation ENDS-->    							
+     									
+     											
+
+    			
+  	
+     			
+     			
+     	
+       
+       
+       
+       
+       
+       
+       
+        
+        
       <!--Banner Image -->
+       <div class="vbanner">
       <div class="container-fluid">
        <div class="row">
-             <div class="vbanner">
+            <div class="col-sm-12">
+            
                <h3 class="text-center">GET READY</h3>
                  <h1 class="text-center">ENVATO ANNUAL COFFERENCE </h1>
                     <p class="text-center">Great together tree air, them the. Greater face let night</br> created very place creature. Deep abundantly good winged called seas land itself the bring creature.</p>
+                    <div class="text-center c-vbox">
+                     
                       <div class="vbox">				    						
                       </div>
                       <div class="vbox">
@@ -64,10 +94,13 @@
                       </div>
                       <div class=vbox>
                       
+                     </div> 
+                      
                       
                       </div>
               </div>
           </div>
+      </div>
       </div>
 
 
@@ -187,31 +220,37 @@
 		<div class="row">
 			<div class="col-sm-3">
 				<div class="sp-photo">
-				<img src="imgs/speaker1.jpg" alt="speaker one">
+				<img class="img-responsive" src="imgs/speaker1.jpg" alt="speaker one">
 					<div class="sp-name">
 						<h4>Reviewer, Envato</h4>
 					</div>
 				</div>
 			</div>
+			
+			
 			<div class="col-sm-3">
 				<div class="sp-photo">
-				<img src="imgs/2.jpg" alt="speaker one">
+				<img class="img-responsive" src="imgs/2.jpg" alt="speaker one">
 					<div class="sp-name">
 						<h4>Reviewer, Envato</h4>
 					</div>
 				</div>
 			</div>
+			
+			
 			<div class="col-sm-3">
 				<div class="sp-photo">
-				<img src="imgs/3.jpg" alt="speaker one">
+				<img class="img-responsive" src="imgs/3.jpg" alt="speaker one">
 					<div class="sp-name">
 						<h4>Reviewer, Envato</h4>
 					</div>
 				</div>
 			</div>
+			
+			
 			<div class="col-sm-3">
 				<div class="sp-photo">
-				<img src="imgs/4.jpg" alt="speaker one">
+				<img class="img-responsive" src="imgs/4.jpg" alt="speaker one">
 					<div class="sp-name">
 						<h4>Reviewer, Envato</h4>
 					</div>
@@ -296,15 +335,75 @@
       	
       </div>
       
+      
+      
+      
+      
+
+
+<form action="index.html" class="contact">
+    <fieldset class="contact-inner">
+      
+
+      <p class="contact-input">
+        <label for="select" class="select">
+          <select name="Zone" id="select">
+            <option value="" selected>Select a Zone</option>
+            <option value="1">Zone1</option>
+            <option value="1">Zone2</option>
+            <option value="1">Zone3</option>
+          </select>
+        </label>
+      </p>
+      
+      <p class="contact-input">
+        <label for="select" class="select">
+          <select name="add-chair" id="select">
+            <option value="" selected>ADD MORE Chairs? 4 by default</option>
+            <option value="1">Add 1 more Chair</option>
+            <option value="1">Add 2 more Chair</option>
+            <option value="1">Add 3 more Chair</option>
+          </select>
+        </label>
+      </p>
+      
+      
+      <p class="contact-input">
+        <input type="text" name="name" placeholder="Name">
+      </p>
+
+      <p class="contact-input">
+        <input type="text" placeholder="Phone Number">
+      </p>
+      
+      <p class="contact-input">
+        <input type="email" placeholder="Email Address">
+      </p>
+
+      <p class="contact-submit">
+        <input type="submit" value="PAY">
+      </p>
+    </fieldset>
+  </form>
+
+
+<!--    form END -->
+      
+      
+      
+      
    
    
    
    
-   
-   <!-- Map and Contact Section  -->
+<!-- Map and Contact Section  -->
+
  <div class="container-fluid">
  	<div class="row">
- 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30745.870806046998!2d73.85990459494839!3d15.57914966936266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc0a93361ccd9%3A0xdd98120b24e5be61!2sPanjim%2C+Goa!5e0!3m2!1sen!2sin!4v1490958696085"   style="border:0; height:450px; width:100%;" allowfullscreen></iframe>
+ 		
+ 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30745.870806046998!2d73.85990459494839!3d15.57914966936266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc0a93361ccd9%3A0xdd98120b24e5be61!2sPanjim%2C+Goa!5e0!3m2!1sen!2sin!4v1490958696085"   style="border:0; height:450px; width:100%;" >
+ 		</iframe>
+ 		
  	</div>
  </div>
       
@@ -366,6 +465,7 @@
 <script src="js/jquery-3.1.1.js"></script>
     
 <script src="js/bootstrap.min.js"></script>
+  <script src="js/js.js"></script>
     
 </body>
 </html>
